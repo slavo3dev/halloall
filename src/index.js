@@ -11,6 +11,15 @@ let render = () => {
         <App/>, rootEl)
 }
 
-ReactDOM.render(
-    <App/>, document.getElementById('root'));
+if (module.hot) {
+    module
+        .hot
+        .accept('./App', () => {
+            setTimeout(render);
+        })
+}
+
+render();
+
+// ReactDOM.render(     <App/>, document.getElementById('root'));
 registerServiceWorker();
