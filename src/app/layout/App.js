@@ -6,6 +6,8 @@ class App extends Component {
       <div className="App">
         <p>Hello Slavo</p>
         <p>First App</p>
+        <button className='ui icon button'>
+          <i className="smile icon"></i>CSS Button</button>
       </div>
     );
   }
