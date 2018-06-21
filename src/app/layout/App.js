@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import EventDashboard from '../../features/event/EventDashboard/EventDashboard'
+import EventDashboard from '../../features/event/EventDashboard/EventDashboard';
 
 class App extends Component {
   render() {
