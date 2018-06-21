@@ -4,7 +4,9 @@ import {Grid} from 'semantic-ui-react';
 class EventDashboard extends Component {
     render() {
         return (
-            <Grid></Grid>
+            <Grid>
+                <Grid.Column width={10}></Grid.Column>
+            </Grid>
         )
     }
 }
