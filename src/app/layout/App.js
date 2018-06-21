@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Button} from 'semantic-ui-react';
 
 class App extends Component {
   render() {
@@ -8,6 +9,7 @@ class App extends Component {
         <p>First App</p>
         <button className='ui icon button'>
           <i className="smile icon"></i>CSS Button</button>
+        <Button/>
       </div>
     );
   }
