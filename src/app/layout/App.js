@@ -6,10 +6,12 @@ import NavBar from '../../features/nav/NavBar/NavBar';
 class App extends Component {
   render() {
     return (
-      <Container className="main">
+      <div>
         <NavBar/>
-        <EventDashboard/>
-      </Container>
+        <Container className="main">
+          <EventDashboard/>
+        </Container>
+      </div>
     );
   }
 }
