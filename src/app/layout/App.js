@@ -9,7 +9,7 @@ class App extends Component {
         <p>First App</p>
         <button className='ui icon button'>
           <i className="smile icon"></i>CSS Button</button>
-        <Button/>
+        <Button icon='smile' content='React Button'/>
       </div>
     );
   }
