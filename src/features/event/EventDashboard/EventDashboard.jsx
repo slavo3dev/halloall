@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Grid} from 'semantic-ui-react';
-import EventList from '../EventList/EventList'
-import EventForm from '../EventForm/EventForm'
+import EventList from '../EventList/EventList';
+import EventForm from '../EventForm/EventForm.js';
 class EventDashboard extends Component {
     render() {
         return (
