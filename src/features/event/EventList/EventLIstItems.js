@@ -31,7 +31,7 @@ class EventListItems extends Component {
                     </Segment>
                     <Segment secondary>
                         <List horizontal>
-                            {/* todo: attendees go here */}
+                            <EventListAttendee/>
                         </List>
                     </Segment>
                     <Segment clearing>
