@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Grid} from 'semantic-ui-react';
 import EventList from '../EventList/EventList'
+import EventForm from '../EventForm/EventForm'
 class EventDashboard extends Component {
     render() {
         return (
@@ -10,6 +11,7 @@ class EventDashboard extends Component {
                 </Grid.Column>
                 <Grid.Column width={6}>
                     <h2>Right Column</h2>
+                    <EventForm/>
                 </Grid.Column>
             </Grid>
         )

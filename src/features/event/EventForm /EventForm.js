@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Segment, Form, Button} from 'semantic-ui-react'
 
-class EventFrom extends Component {
+class EventForm extends Component {
     render() {
         return (
             <Segment>
@@ -36,4 +36,4 @@ class EventFrom extends Component {
     }
 };
 
-export default EventFrom;
+export default EventForm;
