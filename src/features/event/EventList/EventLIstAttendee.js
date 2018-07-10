@@ -5,11 +5,7 @@ class EventListAttendee extends Component {
     render() {
         return (
             <List.Item>
-                <Image
-                    as='a'
-                    size='mini'
-                    circular
-                    src='https;//randomuser.me/api/portaits/women/42.jpg'/>
+                <Image as='a' size='mini' circular src='http://placekitten.com/200/300'/>
             </List.Item>
         )
     }

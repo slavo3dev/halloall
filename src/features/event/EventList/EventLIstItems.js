@@ -9,7 +9,7 @@ class EventListItems extends Component {
                     <Segment>
                         <Item.Group>
                             <Item>
-                                <Item.Image size="tiny" circular src=""/>
+                                <Item.Image size="tiny" circular src="http://placekitten.com/200/300"/>
                                 <Item.Content>
                                     <Item.Header as="a">Event Title</Item.Header>
                                     <Item.Description>
