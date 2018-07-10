@@ -32,9 +32,13 @@ class EventListItems extends Component {
                     <Segment secondary>
                         <List horizontal>
                             <EventListAttendee/>
+                            <EventListAttendee/>
+                            <EventListAttendee/>
+                            <EventListAttendee/>
                         </List>
                     </Segment>
                     <Segment clearing>
+                        <span>Description</span>
                         <Button as="a" color="teal" floated="right" content="View"/>
                     </Segment>
                 </Segment.Group>
