@@ -6,6 +6,9 @@ class EventList extends Component {
         return (
             <div>
                 <h1>Event List</h1>
+                <EventListItems/>
+                <EventListItems/>
+                <EventListItems/>
             </div>
         )
     }

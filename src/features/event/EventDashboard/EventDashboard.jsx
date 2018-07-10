@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Grid} from 'semantic-ui-react';
-
+import EventList from '../EventList/EventList'
 class EventDashboard extends Component {
     render() {
         return (
